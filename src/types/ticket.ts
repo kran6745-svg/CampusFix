@@ -25,6 +25,10 @@ export interface Ticket {
   created_at: string;
   updated_at: string;
 }
+export const TECHNICIANS: Technician[] = [
+  { id: 'อ.ภัคนันท์', name: 'อ.ภัคนันท์', phone: '082-00119165', role: 'ช่างซ่อม' },
+  { id: 'อ.อรทัย', name: 'อ.อรทัย', phone: '099-3932322', role: 'ช่างซ่อม' },
+  ];
 
 export const STATUS_CONFIG = {
   pending: { label: 'รอรับเรื่อง', color: 'bg-yellow-500' },
